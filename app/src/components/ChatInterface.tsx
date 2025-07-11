@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { User } from 'firebase/auth';
 import { sendMessage } from '../services/genkit-chat';
 
@@ -13,7 +13,7 @@ interface ChatInterfaceProps {
   user: User;
 }
 
-export function ChatInterface({ user }: ChatInterfaceProps) {
+export function ChatInterface({ }: ChatInterfaceProps) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
