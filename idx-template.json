@@ -1,0 +1,8 @@
+{
+  "name": "DaisyAI Chat",
+  "description": "AI-powered chat interface for music industry orchestration",
+  "categories": ["AI", "Chat", "Web app"],
+  "icon": "https://www.gstatic.com/genai/studio/logo_gemini.svg",
+  "publisher": "DaisyAI",
+  "params": []
+}

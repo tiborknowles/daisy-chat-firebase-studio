@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "warner-music-staging"
+  },
+  "targets": {
+    "warner-music-staging": {
+      "hosting": {
+        "daisy-chat": [
+          "daisy-rocks"
+        ]
+      }
+    }
+  }
+}
