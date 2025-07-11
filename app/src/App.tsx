@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { auth } from './lib/firebase';
 import { onAuthStateChanged, signInWithPopup, GoogleAuthProvider, signOut, User } from 'firebase/auth';
-import { ChatInterface } from './components/ChatInterface';
+import { ChatInterfaceSSE } from './components/ChatInterfaceSSE';
 import './App.css';
 
 export default function App() {
@@ -77,7 +77,7 @@ export default function App() {
         </div>
       </header>
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <ChatInterface user={user} />
+        <ChatInterfaceSSE user={user} />
       </main>
     </div>
   );
